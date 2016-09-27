@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Info Pc</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="App_Themes/Tema1/StyleSheet.css" rel="stylesheet" type="text/css" />
+    
+    <style type="text/css">
+
+
+        .style1
+        {
+            width: 32%;
+        }
+        * {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+}
+
+h1{font-size:2em;margin:4.2em 0 0em 0;
+}
+        .style2
+        {
+        }
+        .style3
+        {
+            height: 40px;
+        }
+        .style4
+        {
+            height: 43px;
+        }
+    </style>
+    
+</head>
+<body bgcolor="#204862">
+    <form id="form1" runat="server">
+    <div>
+                        <table align="center" class="style1">
+                            <tr>
+                                <td class="style3">
+                                        <asp:Button ID="btnAdd" runat="server" BackColor="#00CCFF" 
+                                            BorderColor="#0099CC" Font-Names="Tahoma" Font-Size="12pt" ForeColor="White" 
+                                            Height="37px" Text="Inicio" Width="93px" PostBackUrl="~/Inicio.aspx" />
+                                        <asp:Button ID="btnAdd0" runat="server" BackColor="#00CCFF" 
+                                            BorderColor="#00CCFF" Font-Names="Tahoma" Font-Size="12pt" ForeColor="White" 
+                                            Height="37px" Text="Inventariado" Width="128px" 
+                                        PostBackUrl="~/frmInfoPc.aspx" />
+                                        <asp:Button ID="btnAdd1" runat="server" BackColor="#CC3300" 
+                                            BorderColor="#CC3300" Font-Names="Tahoma" Font-Size="12pt" ForeColor="White" 
+                                            Height="37px" Text="Cerrar Sesion" Width="135px" 
+                                        PostBackUrl="~/Login.aspx" />
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td align="center" class="style4" 
+                                    style="color: #FFFFFF; font-family: 'Segoe UI Light'; font-size: x-large; font-style: normal; font-weight: bold;">
+                                        Pagina de Inventario</td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                        <table class="style29" style="background-color: #FFFFFF; height: 100%;" width="100%">
+                            <tr>
+                                <td class="style2" align="left">
+                                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                                        <p>
+                                            &nbsp;</p>
+        
+        </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                        </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <asp:Label ID="lblMensaje" runat="server" Font-Names="Segoe UI Light" 
+                                        Font-Size="Medium"></asp:Label>
+                                        
+                                </td>
+                            </tr>
+                        </table>
+    </div>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Web_InventarioE", ".", "{8CF98DD9-6B00-4C50-9319-287C98645C66}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/Web_InventarioE"
+		Debug.AspNetCompiler.PhysicalPath = "..\Web_InventarioE\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Web_InventarioE\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Web_InventarioE"
+		Release.AspNetCompiler.PhysicalPath = "..\Web_InventarioE\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Web_InventarioE\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49407"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CF98DD9-6B00-4C50-9319-287C98645C66}.Debug|.NET.ActiveCfg = Debug|.NET
+		{8CF98DD9-6B00-4C50-9319-287C98645C66}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
